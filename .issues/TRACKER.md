@@ -13,28 +13,28 @@
 
 ## Issues
 
-| ID | Título | Prioridade | Deps | Status |
-|----|--------|------------|------|--------|
-| 001 | Setup inicial do backend (Django + DRF) | Critical | — | ✅ |
-| 002 | Setup inicial do frontend (React + Vite) | Critical | — | ✅ |
-| 003 | Model User + Auth (JWT login, registro, perfis) | Critical | 001 | ⬜ |
-| 004 | Páginas de Auth no frontend (login, registro, recuperação) | Critical | 002, 003 | ⬜ |
-| 005 | Models de Conteúdo (Module, Lesson, VideoLesson, Exercise, ExerciseTestCase) | Critical | 001 | ⬜ |
-| 006 | CRUD Admin de Conteúdo (API + frontend) | Critical | 005, 004 | ⬜ |
-| 007 | Models de ClassGroup e ClassEnrollment | Critical | 001, 003 | ⬜ |
-| 008 | Gestão de Turmas — Professor (API + frontend) | Critical | 007, 004 | ⬜ |
-| 009 | Trilha de Aprendizagem — Aluno (API + frontend) | Critical | 005, 004 | ⬜ |
-| 010 | Página de Aula — Vídeo + Material Escrito + Exercícios | Critical | 009 | ⬜ |
-| 011 | Editor de Código + Execução Skulpt + Correção Automática | Critical | 010 | ⬜ |
-| 012 | Models de Submission e SubmissionResult | Critical | 001, 005 | ⬜ |
-| 013 | Submissão de código e persistência de resultado (API + frontend) | Critical | 011, 012 | ⬜ |
-| 014 | Models de Progresso (Module, Lesson, Exercise Progress) | Critical | 001, 005 | ⬜ |
-| 015 | Progresso do Aluno — Cálculo e visualização | Critical | 014, 013 | ⬜ |
-| 016 | Painel do Professor — Progresso coletivo e individual | Critical | 008, 015 | ⬜ |
-| 017 | Gestão de Usuários pelo Admin (API + frontend) | Critical | 003, 004 | ⬜ |
-| 018 | Autorização e permissões (RBAC) | Critical | 003 | ⬜ |
-| 019 | Segurança e proteção (rate limiting, validação, CORS) | Important | 018 | ⬜ |
-| 020 | UI/UX Polish — Interface guiada e intuitiva | Important | Todas | ⬜ |
+| # | ID | Título | Prioridade | Deps | Status |
+|---|-----|--------|------------|------|--------|
+| 1 | 001 | Setup inicial do backend (Django + DRF) | Critical | — | ✅ |
+| 2 | 002 | Setup inicial do frontend (React + Vite) | Critical | — | ✅ |
+| 3 | 003 | Model User + Auth (JWT login, registro, perfis) | Critical | 001 | ⬜ |
+| 4 | 005 | Models de Conteúdo (Module, Lesson, VideoLesson, Exercise, ExerciseTestCase) | Critical | 001 | ⬜ |
+| 5 | 004 | Páginas de Auth no frontend (login, registro, recuperação) | Critical | 002, 003 | ⬜ |
+| 6 | 007 | Models de ClassGroup e ClassEnrollment | Critical | 001, 003 | ⬜ |
+| 7 | 012 | Models de Submission e SubmissionResult | Critical | 001, 005 | ⬜ |
+| 8 | 014 | Models de Progresso (Module, Lesson, Exercise Progress) | Critical | 001, 005 | ⬜ |
+| 9 | 018 | Autorização e permissões (RBAC) | Critical | 003 | ⬜ |
+| 10 | 009 | Trilha de Aprendizagem — Aluno (API + frontend) | Critical | 005, 004 | ⬜ |
+| 11 | 006 | CRUD Admin de Conteúdo (API + frontend) | Critical | 005, 004 | ⬜ |
+| 12 | 017 | Gestão de Usuários pelo Admin (API + frontend) | Critical | 003, 004 | ⬜ |
+| 13 | 008 | Gestão de Turmas — Professor (API + frontend) | Critical | 007, 004 | ⬜ |
+| 14 | 010 | Página de Aula — Vídeo + Material Escrito + Exercícios | Critical | 009 | ⬜ |
+| 15 | 011 | Editor de Código + Execução Skulpt + Correção Automática | Critical | 010 | ⬜ |
+| 16 | 013 | Submissão de código e persistência de resultado (API + frontend) | Critical | 011, 012 | ⬜ |
+| 17 | 015 | Progresso do Aluno — Cálculo e visualização | Critical | 014, 013 | ⬜ |
+| 18 | 016 | Painel do Professor — Progresso coletivo e individual | Critical | 008, 015 | ⬜ |
+| 19 | 019 | Segurança e proteção (rate limiting, validação, CORS) | Important | 018 | ⬜ |
+| 20 | 020 | UI/UX Polish — Interface guiada e intuitiva | Important | Todas | ⬜ |
 
 ## Grafo de Dependências
 
