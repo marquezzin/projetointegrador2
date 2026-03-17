@@ -157,11 +157,13 @@ cat .issues/TRACKER.md
 
 ### Backend
 ```bash
-python manage.py check          # Verificar configuração
-python manage.py migrate        # Aplicar migrações
-python manage.py runserver      # Iniciar servidor dev
-python manage.py createsuperuser # Criar admin
-python manage.py test           # Rodar testes
+python manage.py check                        # Verificar configuração
+python manage.py makemigrations               # Criar novas migrações a partir dos models
+python manage.py makemigrations nome_do_app   # Criar migrações para um app específico
+python manage.py migrate                      # Aplicar migrações no banco de dados
+python manage.py runserver                    # Iniciar servidor dev
+python manage.py createsuperuser              # Criar admin
+python manage.py test                         # Rodar testes
 ```
 
 ### Frontend
